@@ -1,6 +1,7 @@
-include 'sample/host'
 rootProject.name = "ShadowLearning"
 
+include 'sample-host'
+project(':sample-host').projectDir = file('sample/host')
 includeBuild 'sdk/coding'
 includeBuild 'sdk/core'
 includeBuild 'sdk/dynamic'
