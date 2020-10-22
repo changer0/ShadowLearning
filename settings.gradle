@@ -1,2 +1,6 @@
 include ':host'
 rootProject.name = "ShadowLearning"
+
+includeBuild 'project/sdk/coding'
+includeBuild 'project/sdk/core'
+includeBuild 'project/sdk/dynamic'
