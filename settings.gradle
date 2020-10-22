@@ -1,6 +1,6 @@
-include ':host'
+include 'sample/host'
 rootProject.name = "ShadowLearning"
 
-includeBuild 'project/sdk/coding'
-includeBuild 'project/sdk/core'
-includeBuild 'project/sdk/dynamic'
+includeBuild 'sdk/coding'
+includeBuild 'sdk/core'
+includeBuild 'sdk/dynamic'
