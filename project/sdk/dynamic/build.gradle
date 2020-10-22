@@ -14,5 +14,5 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
-apply from: '../../../buildScripts/gradle/common.gradle'
+apply from: '../buildScripts/gradle/common.gradle'
 
