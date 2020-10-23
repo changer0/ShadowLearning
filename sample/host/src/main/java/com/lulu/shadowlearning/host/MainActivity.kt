@@ -1,7 +1,8 @@
-package com.lulu.shadowlearning
+package com.lulu.shadowlearning.host
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.lulu.shadowlearning.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -48,7 +48,4 @@ dependencies {
     implementation 'com.tencent.shadow.dynamic:dynamic-host'
     //sample-host从assets中复制插件用的
     implementation 'commons-io:commons-io:2.5'
-
-    //通用的常量字段
-    implementation project(':sample-constants')
 }

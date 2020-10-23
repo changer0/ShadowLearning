@@ -1,7 +1,9 @@
 rootProject.name = "ShadowLearning"
 
 include 'sample-host'
+include 'sample-constants'
 project(':sample-host').projectDir = file('sample/host')
+project(':sample-constants').projectDir = file('sample/constants')
 includeBuild 'sdk/coding'
 includeBuild 'sdk/core'
 includeBuild 'sdk/dynamic'
